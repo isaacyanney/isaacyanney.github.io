@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Isaac Yanney — Computer Vision / AI Engineer</title>
+  <meta name="description" content="Computer Vision / AI Engineer portfolio: industrial defect detection, deployment, and ML engineering." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="container">
+    <nav class="nav">
+      <a class="logo" href="#">Isaac Yanney</a>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a class="btn" href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <h1>Computer Vision / AI Engineer</h1>
+      <p class="subtitle">
+        Physics B.Sc. (Computing) + AI Engineering & Computer Vision Weiterbildung.
+        I build practical ML systems: reproducible training, evaluation, and deployable inference APIs.
+      </p>
+
+      <div class="cta-row">
+        <a class="btn primary" href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/isaacyanney" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="#projects">View Projects</a>
+      </div>
+
+      <div class="meta">
+        <span>Berlin (EU)</span>
+        <span>Open to roles: CV / ML Engineer</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <article class="card">
+        <div class="card-header">
+          <h3>Industrial Surface Defect Detection</h3>
+          <div class="links">
+            <a href="https://github.com/isaacyanney/Isaac-Yanney/tree/main/surface-defect-detection" target="_blank" rel="noopener">Repo</a>
+          </div>
+        </div>
+        <p>
+          Built a surface defect classification pipeline using PyTorch with meaningful evaluation metrics and a FastAPI inference service.
+          Focus: clean repo hygiene, reproducibility, and deployment-ready interfaces.
+        </p>
+        <ul class="tags">
+          <li>PyTorch</li><li>Computer Vision</li><li>FastAPI</li><li>ML Engineering</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <h3>Next Project (In Progress)</h3>
+          <div class="links">
+            <a href="https://github.com/isaacyanney" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+        <p>
+          Confidence-aware visual inspection using synthetic defects and threshold-based decision logic.
+        </p>
+        <ul class="tags">
+          <li>PyTorch</li><li>OpenCV</li><li>Deployment</li>
+        </ul>
+      </article>
+
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Computer Vision</h3>
+          <p>Classification, augmentation, evaluation, failure analysis.</p>
+        </div>
+        <div class="card">
+          <h3>ML Engineering</h3>
+          <p>Reproducible training, clean repo structure, experiment hygiene.</p>
+        </div>
+        <div class="card">
+          <h3>Deployment</h3>
+          <p>FastAPI inference services, Docker basics, API design.</p>
+        </div>
+        <div class="card">
+          <h3>Tools</h3>
+          <p>Python, PyTorch, NumPy, OpenCV, Git, Linux.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        I’m a Berlin-based engineer with a Physics B.Sc. focused on computing, plus recent training in AI Engineering and Computer Vision.
+        I like building ML projects that are practical, well-documented, and easy to reproduce.
+      </p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="contact">
+        <a class="btn primary" href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE/" target="_blank" rel="noopener">Message me on LinkedIn</a>
+        <a class="btn" href="mailto:YOUR.EMAIL@example.com">Email</a>
+      </div>
+      <p class="small">Tip: keep your email professional (first.last@...).</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="small">© <span id="year"></span> Isaac Yanney</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
