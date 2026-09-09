@@ -1,6 +1,6 @@
-# Isaac Lovelace Yanney — IT Support Portfolio
+# Isaac Lovelace Yanney — Professional Portfolio
 
-Professional portfolio for a Berlin-based IT Support and Technical Operations specialist.
+Recruiter-facing portfolio for a Berlin-based IT Support and Technical Operations specialist, with verified projects and documented training.
 
 ## Focus
 
@@ -14,4 +14,4 @@ Professional portfolio for a Berlin-based IT Support and Technical Operations sp
 
 [View the portfolio](https://isaacyanney.github.io) · [GitHub profile](https://github.com/isaacyanney) · [LinkedIn](https://www.linkedin.com/in/isaac-lovelace-yanney/)
 
-The site is built as a lightweight static portfolio and deployed through GitHub Pages.
+The site is built as a lightweight static portfolio and deployed through GitHub Pages. The published files are kept at the repository root so the established portfolio URL remains unchanged.
